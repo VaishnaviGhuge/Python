@@ -1,0 +1,33 @@
+#Exception Handling : 
+#Types of error are possible
+#Syntax Errors
+#Runtime Errors
+#Exception handling is for runtime error only
+#example of runtime error
+#ZeroDivisionError
+#Typeerror
+#ValueError
+#Filenotfounderror
+#EOFError
+#It is highly recommendation to use exception handling
+#Graceful termination of program
+
+#Example
+try:
+    read data from remote file locating at london
+except FileNotFoundError:
+    use local file and continue rest of the program normally
+
+#Default exception handling :
+#Terminating program abnormaly
+
+
+#                   Base Exception
+#Exception SystemExit  GeneratorExit  KeyBoardInterrupt
+#AttribiteError ArithmaticError EOFError NameError LookupError 
+#OSError TypeError Valuerror
+
+#ArithmaticError : ZeroDivisionError,FloatingPointErr,OverflowError
+#LookupError : IndexError,KeyError
+#OSError : FileNotFoundError,InterruptError,PermissionError,TimeOutError
+
